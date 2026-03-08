@@ -35,7 +35,7 @@ class FinancialSnapshot:
 
     # Trend indicators
     slope: float = 0.0                   # linear regression slope of 20d prices
-    sma_cross: float = 0.0              # SMA-10 / SMA-50 ratio  (>1 = bullish)
+    sma_cross: float = 1.0              # SMA-10 / SMA-50 ratio  (>1 = bullish)
     rsi: float = 50.0                    # 14-day RSI
     regime_score: float = 0.0            # composite regime  (-1 bear … +1 bull)
 
